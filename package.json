@@ -2,7 +2,7 @@
   "name": "brenda-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://bflores88.github.io/bflores88",
+  "homepage": "http://bflores88.github.io/index.html",
   "dependencies": {
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
