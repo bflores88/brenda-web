@@ -8,6 +8,8 @@ class About extends Component {
 			<>
 				<Box>
 					<h1> Hi, I'm Brenda!</h1>
+
+					<p>I am a Software Engineer.</p>
 				</Box>
 			</>
 		);

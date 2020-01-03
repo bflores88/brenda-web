@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Layout from './containers/Layout/Layout';
 import About from './containers/About/About';
 import Contact from './containers/Contact/Contact';
+import './components/UI/TextFadeIn/TextFadeIn.scss';
 import './App.css';
 
 class App extends Component {

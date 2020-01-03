@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import classes from './Contact.module.scss';
+import Box from '../../components/UI/Box/Box';
 
 class Contact extends Component {
 	render() {
-		return <h1>Contact Page</h1>;
+		return (
+		<Box>
+			<div id="contact"><h1>Contact</h1></div>
+			
+		</Box>)
 	}
 }
 
