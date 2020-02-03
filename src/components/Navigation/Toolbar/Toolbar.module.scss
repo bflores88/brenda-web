@@ -1,38 +1,38 @@
 .Logo {
-	position: relative;
-	height: 100%;
+  position: relative;
+  height: 100%;
 
-	img {
-		height: 35px;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		margin: auto;
-	}
+  img {
+    height: 35px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
 }
 
 .Toolbar {
-	height: 70px;
-	line-height: 45px;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row-reverse;
-	box-sizing: border-box;
-	padding: 0 40px;
-	transition: top 0.3s;
-	
+  height: 70px;
+  line-height: 45px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  box-sizing: border-box;
+  padding: 0 40px;
+  transition: top 0.3s;
+  background-color: #212121;
 }
 
 .Toolbar nav {
-	height: 100%;
+  height: 100%;
 }
 
 @media (max-width: 499px) {
-	.Desktop {
-		display: none;
-	}
+  .Desktop {
+    display: none;
+  }
 }

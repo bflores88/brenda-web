@@ -1,0 +1,114 @@
+.About,
+.Education,
+.Skills {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  min-height: 450px;
+  padding: 30px 50px 80px 50px;
+
+  p {
+    font-family: monospace;
+  }
+
+  .Pinky {
+    color: rgb(233, 59, 149);
+    font-style: oblique;
+  }
+
+  .Greeny {
+    color: #14ffec;
+  }
+
+  @media (min-width: 600px) {
+    line-height: 1.5em;
+  }
+
+  .FaIcon {
+    font-size: 3rem;
+    width: 50px;
+
+    :hover {
+      color: #212121;
+    }
+  }
+}
+
+.AboutTitle {
+  color: #212121;
+  animation: slideInFromLeft 1.5s;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.About,
+.Skills {
+  background-color: rgb(230, 230, 230);
+  color: #212121;
+}
+
+.Education {
+  h3,
+  h4 {
+    margin: 0;
+  }
+
+  p {
+    margin: 10px 0px;
+  }
+}
+
+.Skills {
+  ul {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+    list-style-type: none;
+  }
+}
+
+.fa-js-square {
+  color: #dec434;
+}
+
+.fa-html5 {
+  color: #d24a2c;
+}
+
+.fa-css3-alt {
+  color: rgb(49, 155, 213);
+}
+
+.fa-node-js {
+  color: #519a40;
+}
+
+.fa-react {
+  color: #5fd4f5;
+}
+
+.fa-sass {
+  color: #c86395;
+}
+
+.fa-git-alt {
+  color: #eb4e32;
+}
+
+.fa-docker {
+  color: #2492e8;
+}
+
+.fa-angular {
+  color: #d8353e;
+}

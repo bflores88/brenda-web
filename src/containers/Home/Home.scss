@@ -1,0 +1,53 @@
+.Intro-Container {
+  height: 80%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: 600px) {
+    line-height: 1.5em;
+  }
+}
+
+.Intro {
+  animation: slideInFromTop;
+  animation-duration: 1s;
+  margin: 0;
+
+  .Pinky {
+    color: rgb(233, 59, 149);
+  }
+}
+
+.SlideInFromRight {
+  animation: slideInFromRight;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+.Peachy {
+  color: rgb(255, 164, 85);
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
